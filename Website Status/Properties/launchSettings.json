@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "Website_Status": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
