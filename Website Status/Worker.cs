@@ -34,6 +34,7 @@ namespace Website_Status
         {
             while (!stoppingToken.IsCancellationRequested)
             {
+                //https
                 var result = await client.GetAsync("https://www.dlewandowski.pl");
 
                 if (result.IsSuccessStatusCode)
